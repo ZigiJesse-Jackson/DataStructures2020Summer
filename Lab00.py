@@ -1,4 +1,8 @@
-'''Authors: Jesse-Jackson Zigi and Bright Okrah'''
+'''
+Authors: Jesse-Jackson Zigi and Bright Okrah
+
+GitHub repo: https://github.com/ZigiJesse-Jackson/DataStructures2020Summer
+'''
 
 
 '''
