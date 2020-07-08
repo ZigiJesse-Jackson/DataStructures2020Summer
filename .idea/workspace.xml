@@ -19,9 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="efb0394e-1cff-4d6b-9395-decf05bd4b04" name="Default Changelist" comment="Assignment Test 1">
-      <change beforePath="$PROJECT_DIR$/.idea/DataStructures2020Summer.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/DataStructures2020Summer.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="efb0394e-1cff-4d6b-9395-decf05bd4b04" name="Default Changelist" comment="Testing commit from Pycharm">
+      <changelist_data name="ZigiJesse-Jackson" email="jzjackson995@gmail.com" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,6 +37,13 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="hiddenUrls">
+      <set>
+        <option value="https://github.com/ZigiJesse-Jackson/DataStructures2020Summer" />
+      </set>
+    </option>
+  </component>
   <component name="ProjectId" id="1eNnjGgxBvP1eY9TJg7Ha0NQfZZ" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -46,12 +52,16 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PythonContentEntriesConfigurable" />
   </component>
   <component name="RunManager">
     <configuration name="Lab00" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="DataStructures2020Summer" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="C:\Users\john\anaconda3\python.exe" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="false" />
@@ -104,7 +114,21 @@
       <option name="project" value="LOCAL" />
       <updated>1594207930642</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="testing">
+      <created>1594208564865</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1594208564865</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Testing commit from Pycharm">
+      <created>1594209034664</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1594209034664</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -120,7 +144,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Assignment Test 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Assignment Test 1" />
+    <MESSAGE value="testing" />
+    <MESSAGE value="Testing commit from Pycharm" />
+    <option name="LAST_COMMIT_MESSAGE" value="Testing commit from Pycharm" />
   </component>
   <component name="WindowStateProjectService">
     <state x="392" y="0" key="#Lab00" timestamp="1594206853234">
@@ -135,26 +161,34 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="92" y="92" width="1182" height="544" key="DiffContextDialog/0.0.1366.728@0.0.1366.728" timestamp="1594207320335" />
-    <state width="1345" height="179" key="GridCell.Tab.0.bottom" timestamp="1594207584552">
+    <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1594209306868">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1594207584552" />
-    <state width="1345" height="179" key="GridCell.Tab.0.center" timestamp="1594207584552">
+    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1594209306868" />
+    <state width="672" height="179" key="GridCell.Tab.0.bottom" timestamp="1594208839119">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1594207584552" />
-    <state width="1345" height="179" key="GridCell.Tab.0.left" timestamp="1594207584551">
+    <state width="672" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1594208839119" />
+    <state width="672" height="179" key="GridCell.Tab.0.center" timestamp="1594208839119">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1594207584551" />
-    <state width="1345" height="179" key="GridCell.Tab.0.right" timestamp="1594207584552">
+    <state width="672" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1594208839119" />
+    <state width="672" height="179" key="GridCell.Tab.0.left" timestamp="1594208839119">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1594207584552" />
-    <state x="492" y="277" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1594208232886">
+    <state width="672" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1594208839119" />
+    <state width="672" height="179" key="GridCell.Tab.0.right" timestamp="1594208839119">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="492" y="277" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1594208232886" />
+    <state width="672" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1594208839119" />
+    <state x="184" y="8" key="SettingsEditor" timestamp="1594209523512">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="184" y="8" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1594209523512" />
+    <state x="492" y="277" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1594208813648">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="492" y="277" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1594208813648" />
     <state x="513" y="154" key="svn.repositoryBrowser" timestamp="1594208209877">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
