@@ -1,4 +1,4 @@
 # DataStructures2020Summer
 Repository for Data Structures course
-Authors: Jesse-Jackson Zigi
+\nAuthors: Jesse-Jackson Zigi
          Bright Okrah
