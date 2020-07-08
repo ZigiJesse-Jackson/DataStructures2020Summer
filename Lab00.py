@@ -1,3 +1,5 @@
+'''Authors: Jesse-Jackson Zigi and Bright Okrah'''
+
 #Inheritance practice
 class Computer:
     _specs = ""
