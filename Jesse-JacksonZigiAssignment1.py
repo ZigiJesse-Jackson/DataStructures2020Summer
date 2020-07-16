@@ -1,6 +1,14 @@
 '''Author: Jesse-Jackson Zigi
    Assignment 1
    GitHub link: https://github.com/ZigiJesse-Jackson/DataStructures2020Summer
+
+   Numpy needed to run DotProduct and ListGenerator function
+
+   To run Rectangle class, instantiate points for topRight point and
+   bottomLeft point
+
+   Test case are provided below to be able to test all functions and
+   classes effectively
 '''
 
 import numpy as np
@@ -111,6 +119,8 @@ class Rectangle:
             print("No intersection")
             return False
 '''
+
+Test case 3
 topR = Point(10,10)
 bottomL = Point(1,1)
 OtopR = Point(4,9)

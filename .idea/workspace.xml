@@ -10,7 +10,7 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="efb0394e-1cff-4d6b-9395-decf05bd4b04" name="Default Changelist" comment="Lab00 update">
+    <list default="true" id="efb0394e-1cff-4d6b-9395-decf05bd4b04" name="Default Changelist" comment="GitHub link added">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Jesse-JacksonZigiAssignment1.py" beforeDir="false" afterPath="$PROJECT_DIR$/Jesse-JacksonZigiAssignment1.py" afterDir="false" />
     </list>
@@ -175,7 +175,14 @@
       <option name="project" value="LOCAL" />
       <updated>1594865263602</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="GitHub link added">
+      <created>1594896226387</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1594896226387</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -195,7 +202,8 @@
     <MESSAGE value="testing" />
     <MESSAGE value="Testing commit from Pycharm" />
     <MESSAGE value="Lab00 update" />
-    <option name="LAST_COMMIT_MESSAGE" value="Lab00 update" />
+    <MESSAGE value="GitHub link added" />
+    <option name="LAST_COMMIT_MESSAGE" value="GitHub link added" />
   </component>
   <component name="WindowStateProjectService">
     <state x="392" y="0" key="#Lab00" timestamp="1594206853234">
@@ -234,10 +242,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="8" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1594209523512" />
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1594865515263">
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1594896301845">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1594865515263" />
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1594896301845" />
     <state x="492" y="277" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1594208813648">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
