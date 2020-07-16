@@ -1,6 +1,8 @@
 '''Author: Jesse-Jackson Zigi
    Assignment 1
+   GitHub link: https://github.com/ZigiJesse-Jackson/DataStructures2020Summer
 '''
+
 import numpy as np
 
 ''' Question 1 '''
@@ -21,7 +23,7 @@ Test case 1
 size = 10
 list10 = ListGenerator(size)
 list20 = ListGenerator(size)
-print(DotProduct(size, list10, list20))
+print(DotProduct(size, list10, list20)
 
 Test case 2
 size = 100
