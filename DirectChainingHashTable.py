@@ -9,12 +9,12 @@ from LinkedList import LinkList
 
 class HashTable():
     _capacity = 509
-    _table = _capacity * [LinkList(None)]
+    _table = _capacity * [None]
     _num = 0
 
     def __init__(self):
         self._capacity = 509
-        self._table = self._capacity * [LinkList(None)]
+        self._table = self._capacity * [None]
         self.num = 0
 
     def __hash(self, key):
@@ -31,18 +31,20 @@ class HashTable():
 
     def add(self, key, val):
         index = self.__hash(key)
+        if self._table[index] == None:
+            self._table[index] = LinkList(val)
+            return
         self._table[index].push(val)
-
 
     def __len__(self):
         return self.num
 
     def printIndex(self, key):
         index = self.__hash(key)
-        if self._table[index].head.data != None:
-            print(self._table[index].print())
+        if self._table[index] == None:
+            print("None")
             return
-        return
+        self._table[index].print()
 
     def printHash(self, key):
         print(self.__hash(key))
@@ -57,7 +59,7 @@ table.add(4, 38)
 table.add(36, 34)
 table.add(5, 34)
 
-table.printIndex(5)
+table.printIndex(4)
 
 
 

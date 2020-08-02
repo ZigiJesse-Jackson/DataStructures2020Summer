@@ -6,13 +6,12 @@ class LinkNode:
         self.next = None
 
 class LinkList:
-    head = None
 
     def __init__(self, data):
         self.head = LinkNode(data)
 
     def push(self, data):
-        if self.head.data == None:
+        if self.head.data == None or self.head.data == -1:
             self.head.data = data
             return
 
