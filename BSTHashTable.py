@@ -1,11 +1,4 @@
-'''
-    Authors: Jesse-Jackson Zigi
-             Bright Okrah
-'''
-import random
-from LinkedList import LinkList
-
-
+from BST import BSTree
 
 class HashTable:
     _capacity = 509
@@ -32,7 +25,7 @@ class HashTable:
     def add(self, key, val):
         index = self.__hash(key)
         if self._table[index] == None:
-            self._table[index] = LinkList(val)
+            self._table[index] = BSTree(val)
             return
         self._table[index].push(val)
 
@@ -44,23 +37,18 @@ class HashTable:
         if self._table[index] == None:
             print("None")
             return
-        self._table[index].print()
+        self._table[index].print(self._table[index].root)
 
     def printHash(self, key):
         print(self.__hash(key))
 
-
 table = HashTable()
 
 table.add(65, 34)
-table.add(35, 34)
+table.add(35, 35)
 table.add(5, 36)
 table.add(4, 38)
 table.add(36, 34)
 table.add(5, 34)
 
-table.printIndex(4)
-
-
-
-
+table.printIndex(65)

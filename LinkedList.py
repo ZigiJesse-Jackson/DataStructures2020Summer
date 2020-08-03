@@ -11,7 +11,7 @@ class LinkList:
         self.head = LinkNode(data)
 
     def push(self, data):
-        if self.head.data == None or self.head.data == -1:
+        if self.head.data == None:
             self.head.data = data
             return
 

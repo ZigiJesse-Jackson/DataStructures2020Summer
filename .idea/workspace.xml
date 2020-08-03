@@ -10,10 +10,12 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="efb0394e-1cff-4d6b-9395-decf05bd4b04" name="Default Changelist" comment="Project assignment phase 1">
-      <change afterPath="$PROJECT_DIR$/LinkedList.py" afterDir="false" />
+    <list default="true" id="efb0394e-1cff-4d6b-9395-decf05bd4b04" name="Default Changelist" comment="Project assignment phase 1 Hashtable with updated direct chaining and linked-list">
+      <change afterPath="$PROJECT_DIR$/BST.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BSTHashTable.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HashTable.py" beforeDir="false" afterPath="$PROJECT_DIR$/DirectChainingHashTable.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DirectChainingHashTable.py" beforeDir="false" afterPath="$PROJECT_DIR$/DirectChainingHashTable.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinkedList.py" beforeDir="false" afterPath="$PROJECT_DIR$/LinkedList.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,8 +55,8 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../DataStructuresSummer2020" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PythonContentEntriesConfigurable" />
   </component>
-  <component name="RunManager" selected="Python.DirectChainingHashTable">
-    <configuration name="BinarySearch" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.BSTHashTable">
+    <configuration name="BST" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="DataStructures2020Summer" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -66,7 +68,28 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/BinarySearch.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/BST.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="BSTHashTable" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="DataStructures2020Summer" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/BSTHashTable.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -88,27 +111,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DirectChainingHashTable.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="InterpolationSearch" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="DataStructures2020Summer" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/InterpolationSearch.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -161,11 +163,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.BSTHashTable" />
+        <item itemvalue="Python.BST" />
         <item itemvalue="Python.DirectChainingHashTable" />
         <item itemvalue="Python.LinkedList" />
         <item itemvalue="Python.SearchAlgoTester" />
-        <item itemvalue="Python.InterpolationSearch" />
-        <item itemvalue="Python.BinarySearch" />
       </list>
     </recent_temporary>
   </component>
@@ -264,7 +266,21 @@
       <option name="project" value="LOCAL" />
       <updated>1596317368141</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Project assignment phase 1 Hashtable with direct chaining and linked-list">
+      <created>1596400543856</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1596400543856</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Project assignment phase 1 Hashtable with updated direct chaining and linked-list">
+      <created>1596401349454</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1596401349454</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -287,7 +303,9 @@
     <MESSAGE value="GitHub link added" />
     <MESSAGE value="Question 1 and 2 of assignment 2. Run SearchAlgoTester.py to test InterpolationSearch.py and BinarySearch.py" />
     <MESSAGE value="Project assignment phase 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Project assignment phase 1" />
+    <MESSAGE value="Project assignment phase 1 Hashtable with direct chaining and linked-list" />
+    <MESSAGE value="Project assignment phase 1 Hashtable with updated direct chaining and linked-list" />
+    <option name="LAST_COMMIT_MESSAGE" value="Project assignment phase 1 Hashtable with updated direct chaining and linked-list" />
   </component>
   <component name="WindowStateProjectService">
     <state x="392" y="0" key="#Lab00" timestamp="1594206853234">
@@ -306,22 +324,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1596314903651" />
-    <state width="1345" height="224" key="GridCell.Tab.0.bottom" timestamp="1596400340652">
+    <state width="1345" height="161" key="GridCell.Tab.0.bottom" timestamp="1596490891674">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="224" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1596400340652" />
-    <state width="1345" height="224" key="GridCell.Tab.0.center" timestamp="1596400340650">
+    <state width="1345" height="161" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1596490891674" />
+    <state width="1345" height="161" key="GridCell.Tab.0.center" timestamp="1596490891674">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="224" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1596400340650" />
-    <state width="1345" height="224" key="GridCell.Tab.0.left" timestamp="1596400340650">
+    <state width="1345" height="161" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1596490891674" />
+    <state width="1345" height="161" key="GridCell.Tab.0.left" timestamp="1596490891674">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="224" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1596400340650" />
-    <state width="1345" height="224" key="GridCell.Tab.0.right" timestamp="1596400340651">
+    <state width="1345" height="161" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1596490891674" />
+    <state width="1345" height="161" key="GridCell.Tab.0.right" timestamp="1596490891674">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="224" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1596400340651" />
+    <state width="1345" height="161" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1596490891674" />
     <state width="1345" height="223" key="GridCell.Tab.1.bottom" timestamp="1595618496474">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -342,10 +360,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="8" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1594209523512" />
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1596317379034">
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1596401354431">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1596317379034" />
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1596401354431" />
     <state x="492" y="277" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1596400445254">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
