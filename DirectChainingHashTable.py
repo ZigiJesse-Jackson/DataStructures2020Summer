@@ -1,11 +1,5 @@
-'''
-    Authors: Jesse-Jackson Zigi
-             Bright Okrah
-'''
-import random
+
 from LinkedList import LinkList
-
-
 
 class HashTable:
     _capacity = 509
@@ -50,16 +44,6 @@ class HashTable:
         print(self.__hash(key))
 
 
-table = HashTable()
-
-table.add(65, 34)
-table.add(35, 34)
-table.add(5, 36)
-table.add(4, 38)
-table.add(36, 34)
-table.add(5, 34)
-
-table.printIndex(4)
 
 
 

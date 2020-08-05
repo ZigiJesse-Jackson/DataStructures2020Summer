@@ -42,13 +42,3 @@ class HashTable:
     def printHash(self, key):
         print(self.__hash(key))
 
-table = HashTable()
-
-table.add(65, 34)
-table.add(35, 35)
-table.add(5, 36)
-table.add(4, 38)
-table.add(36, 34)
-table.add(5, 34)
-
-table.printIndex(65)

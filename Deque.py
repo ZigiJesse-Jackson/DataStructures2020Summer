@@ -203,4 +203,5 @@ def main():
 
     print("\n...Exited...\n\nThank you for testing")
 
-main()
+d = Deque(10)
+
