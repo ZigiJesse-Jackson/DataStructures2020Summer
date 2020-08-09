@@ -16,8 +16,9 @@ import random
 import time
 from matplotlib import pyplot
 
+
 def main():
-    keys = []  # list of keys for insertion testing
+    keys = []  # list of keys for insertion testingpy
     values = []  # list of random values for nodes
     counter = 0
     dTable = DHashTable()
@@ -49,12 +50,14 @@ def main():
         counter += 1
 
 
-    # x = [1024, 2048, 3072, 4096, 5120, 6144, 7168, 8192]
-    x = [1, 2, 3, 4, 5, 6, 7, 8]
+    x = [1024, 2048, 3072, 4096, 5120, 6144, 7168, 8192]
+    #x = [1, 2, 3, 4, 5, 6, 7, 8]
     y1 = dAvgs
     y2 = bstAvgs
     pyplot.plot(x, y1, 'r-', label='Direct Chaining Average time')
     pyplot.plot(x, y2, 'b-', label='BST average time')
+    pyplot.xlabel("Number of insertions")
+    pyplot.ylabel("Runtimes in seconds")
     pyplot.title("Average runtime after every 1024 insertions insertions")
     pyplot.legend()
     pyplot.show()

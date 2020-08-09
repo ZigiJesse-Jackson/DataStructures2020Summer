@@ -10,12 +10,11 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="efb0394e-1cff-4d6b-9395-decf05bd4b04" name="Default Changelist" comment="BST and HashTable with BST for collsion resolution. &#10;Only for testing insertion runtime for Hashtable">
-      <change afterPath="$PROJECT_DIR$/RuntimeTest.py" afterDir="false" />
+    <list default="true" id="efb0394e-1cff-4d6b-9395-decf05bd4b04" name="Default Changelist" comment="Runtime test file to test and graph average run time of hashtables with respective collision resolutions">
+      <change beforePath="$PROJECT_DIR$/.idea/DataStructures2020Summer.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/DataStructures2020Summer.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BSTHashTable.py" beforeDir="false" afterPath="$PROJECT_DIR$/BSTHashTable.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Deque.py" beforeDir="false" afterPath="$PROJECT_DIR$/Deque.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DirectChainingHashTable.py" beforeDir="false" afterPath="$PROJECT_DIR$/DirectChainingHashTable.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RuntimeTest.py" beforeDir="false" afterPath="$PROJECT_DIR$/RuntimeTest.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,8 +51,8 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../DataStructuresSummer2020" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PythonContentEntriesConfigurable" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Udemy/FPL_Team_Algo.py" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunManager" selected="Python.RuntimeTest">
     <configuration name="BST" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
@@ -119,7 +118,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="DirectChainingHashTable" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="FPL_Team_Algo" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="DataStructures2020Summer" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -127,11 +126,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../Udemy" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DirectChainingHashTable.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../Udemy/FPL_Team_Algo.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -164,10 +163,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.RuntimeTest" />
+        <item itemvalue="Python.FPL_Team_Algo" />
         <item itemvalue="Python.Deque" />
         <item itemvalue="Python.BSTHashTable" />
         <item itemvalue="Python.BST" />
-        <item itemvalue="Python.DirectChainingHashTable" />
       </list>
     </recent_temporary>
   </component>
@@ -287,7 +286,14 @@
       <option name="project" value="LOCAL" />
       <updated>1596491380945</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Runtime test file to test and graph average run time of hashtables with respective collision resolutions">
+      <created>1596664964278</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1596664964278</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -313,7 +319,8 @@
     <MESSAGE value="Project assignment phase 1 Hashtable with direct chaining and linked-list" />
     <MESSAGE value="Project assignment phase 1 Hashtable with updated direct chaining and linked-list" />
     <MESSAGE value="BST and HashTable with BST for collsion resolution. &#10;Only for testing insertion runtime for Hashtable" />
-    <option name="LAST_COMMIT_MESSAGE" value="BST and HashTable with BST for collsion resolution. &#10;Only for testing insertion runtime for Hashtable" />
+    <MESSAGE value="Runtime test file to test and graph average run time of hashtables with respective collision resolutions" />
+    <option name="LAST_COMMIT_MESSAGE" value="Runtime test file to test and graph average run time of hashtables with respective collision resolutions" />
   </component>
   <component name="WindowStateProjectService">
     <state x="392" y="0" key="#Lab00" timestamp="1594206853234">
@@ -328,54 +335,58 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="92" y="92" width="1182" height="544" key="DiffContextDialog/0.0.1366.728@0.0.1366.728" timestamp="1594207320335" />
-    <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1596314903651">
+    <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1596666706380">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1596314903651" />
-    <state width="1345" height="161" key="GridCell.Tab.0.bottom" timestamp="1596639510733">
+    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1596666706380" />
+    <state width="1345" height="161" key="GridCell.Tab.0.bottom" timestamp="1596980357852">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="161" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1596639510733" />
-    <state width="1345" height="161" key="GridCell.Tab.0.center" timestamp="1596639510733">
+    <state width="1345" height="161" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1596980357852" />
+    <state width="1345" height="161" key="GridCell.Tab.0.center" timestamp="1596980357851">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="161" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1596639510733" />
-    <state width="1345" height="161" key="GridCell.Tab.0.left" timestamp="1596639510733">
+    <state width="1345" height="161" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1596980357851" />
+    <state width="1345" height="161" key="GridCell.Tab.0.left" timestamp="1596980357850">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="161" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1596639510733" />
-    <state width="1345" height="161" key="GridCell.Tab.0.right" timestamp="1596639510733">
+    <state width="1345" height="161" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1596980357850" />
+    <state width="1345" height="161" key="GridCell.Tab.0.right" timestamp="1596980357851">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="161" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1596639510733" />
-    <state width="1345" height="223" key="GridCell.Tab.1.bottom" timestamp="1595618496474">
+    <state width="1345" height="161" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1596980357851" />
+    <state width="1345" height="223" key="GridCell.Tab.1.bottom" timestamp="1596666227308">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="223" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1595618496474" />
-    <state width="1345" height="223" key="GridCell.Tab.1.center" timestamp="1595618496474">
+    <state width="1345" height="223" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1596666227308" />
+    <state width="1345" height="223" key="GridCell.Tab.1.center" timestamp="1596666227307">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="223" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1595618496474" />
-    <state width="1345" height="223" key="GridCell.Tab.1.left" timestamp="1595618496474">
+    <state width="1345" height="223" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1596666227307" />
+    <state width="1345" height="223" key="GridCell.Tab.1.left" timestamp="1596666227306">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="223" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1595618496473" />
-    <state width="1345" height="223" key="GridCell.Tab.1.right" timestamp="1595618496474">
+    <state width="1345" height="223" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1596666227306" />
+    <state width="1345" height="223" key="GridCell.Tab.1.right" timestamp="1596666227307">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="223" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1595618496474" />
-    <state x="184" y="8" key="SettingsEditor" timestamp="1594209523512">
+    <state width="1345" height="223" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1596666227307" />
+    <state x="149" y="0" key="SettingsEditor" timestamp="1596845511472">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="184" y="8" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1594209523512" />
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1596491400936">
+    <state x="149" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1596845511472" />
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1596665109094">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1596491400936" />
-    <state x="492" y="277" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1596400445254">
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1596665109094" />
+    <state x="492" y="277" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1597001017665">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="492" y="277" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1596400445254" />
+    <state x="492" y="277" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1597001017665" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1596844973420">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1596844973420" />
     <state x="513" y="154" key="svn.repositoryBrowser" timestamp="1594208209877">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
